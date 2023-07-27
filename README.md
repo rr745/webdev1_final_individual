@@ -6,10 +6,12 @@ The knowledge you've gained so far culminates in this project. This time, you're
 
 ## **Portfolio Info Architecture / Design Requirements**
 
-1. **Homepage** - Hero section with a call to action, brief bio, and a call to action to signup for Mailchimp if the user wants to contact you.   DO not put your email or any other contact information on the website, you should use Mailchimp as a buffer between you and anyone trying to harvest your data from your website.
-2. **About Me** - Dive deeper into your journey, skills, and passion.
+1. **Homepage** - Hero section with a call to action, brief bio, and a call to action to signup for Mailchimp if the user wants to contact you.   DO not put your email or any other contact information on the website, you should use Mailchimp as a buffer between you and anyone trying to harvest your data from your website. 
+2. **About Me** - Dive deeper into your journey, skills, and passion.  
 3. **Projects** - A showcase of 1-3 key projects you've worked on, or conceptualized.
-4. **Privacy Policy** - Ensure you respect user data and conform to regulations.
+4. **Resume**  When a user signs up for your mailchimp mailing list you can send them a resume or make the resume as the email you send them when they subscribe.  Thiis is so you don't put your private info out publically, but still let someone get information about you.  Even in this you shohulnd't have your phone number.
+5. **Privacy Policy** - Ensure you respect user data and conform to regulations.
+6. **GitHub and LinkedIn** You need to have your GitHub account and LinkedIn account links in the footer or somewhwere thats easy to find on the homepage.
 
 ## **Assignment Goals**
 
