@@ -2,11 +2,11 @@
 
 ## **Building Upon Foundations**
 
-The knowledge you've gained so far culminates in this project. This time, you're not just showcasing what you've learned but also who you are. As you embark on this journey, incorporate the branding concepts you've designed. Transition into creating a professional portfolio using advanced web techniques.
+The knowledge you've gained so far culminates in this project. This time, you're not just showcasing what you've learned but also who you are. As you embark on this journey, incorporate the branding concepts you've designed. Transition into creating a professional portfolio using advanced web techniques.  You need to make a final video presnentation that explains your project and what you have learned in this course.
 
 ## **Portfolio Info Architecture / Design Requirements**
 
-1. **Homepage** - Hero section with a call to action, brief bio, and a list of your showcased projects.
+1. **Homepage** - Hero section with a call to action, brief bio, and a call to action to signup for Mailchimp if the user wants to contact you.   DO not put your email or any other contact information on the website, you should use Mailchimp as a buffer between you and anyone trying to harvest your data from your website.
 2. **About Me** - Dive deeper into your journey, skills, and passion.
 3. **Projects** - A showcase of 1-3 key projects you've worked on, or conceptualized.
 4. **Privacy Policy** - Ensure you respect user data and conform to regulations.
