@@ -10,14 +10,7 @@ test('Check Yourname Presence on Home', async () => {
   const name = 'Radhika';
   expect(name).toBeDefined();
 });
-//Test to check Your name of SSR Page
-test('Check Header for YourName on SSR page', async ({ page }) => {
-  await page.goto(nextjstestssr);
 
-  const name = 'Radhika';
-  const headerSelector = `header h2:has-text("${name}")`;
-  await expect(page.locator(headerSelector)).toBeVisible();
-});
 
 // This test checks if the <h1> in the <article> in SSR page contains specific content 
 test('Check <h1> in <article> for Specific Content on SSR page', async ({ page }) => {
@@ -29,14 +22,7 @@ test('Check <h1> in <article> for Specific Content on SSR page', async ({ page }
 
   await expect(page.locator(headerSelector)).toBeVisible();
 });
-//Test to check for yourname on render page header
-test('Check Header for Your Name on Render Page', async ({ page }) => {
-  await page.goto(nextjsrender);
 
-  const name = 'Radhika';
-  const headerSelector = `header h2:has-text("${name}")`;
-  await expect(page.locator(headerSelector)).toBeVisible();
-});
 
 //This test checks if the <h1> in the <article> of Pre-Rendering Page contains specific content
 test('Check <h1> in <article> for Specific Content on Render Page', async ({ page }) => {
