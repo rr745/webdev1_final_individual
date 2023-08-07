@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import Layout, { siteTitle } from '../components/layout';
 import utilStyles from '../styles/utils.module.css';
-import privacypolicy from '../styles/utils.module.css';
+import Privacypolicy from '../styles/utils.module.css';
 import Signup from '../components/signup';
 
 export default function Home() {
@@ -12,11 +12,10 @@ export default function Home() {
       </Head>
      
       <section className={utilStyles.headingMd}>
-   
       <h2>Tagline</h2>
-      <p> Web developer</p>
+    <p> Web Developer</p>
       <h2>Professional Experience</h2>
-      <p>
+    <p>
         Expertise in implementing Data Warehousing applications with primary
         focus on design, build and testing ETL interfaces using Informatica Power
         Center in both UNIX and Windows based platforms. Proficient in dimensional
@@ -27,21 +26,27 @@ export default function Home() {
         <h2>Project</h2>
       <p> 
           J.D Power and Associates provides clients with the information, analysis, and decision-support tools necessary to reduce risk exposure, improve marketing and remarketing effectiveness, and ultimately to improve profitability.
-      </p>
-     <h2>Skillset</h2>
+          </p>
+          <h2>Responsibilities</h2>
+          <p> •	Worked closely with business teams to understand, analyze and document the requirements.
+   •	Technical Design Document (TDD) for new facts and dimensions have been developed; modified existing TDD documents in case of enhancements or new requirements.
+</p>
+     
+     <h2>SkillSet</h2>
+
       <p> ETL TOOLS: Informatica Power Center 10.x/9.x, Talend Open Studio 5.
           DATABASES: Teradata, Oracle 12c/11g, MS SQL Server 2016/2012, MySQL
           DATABASE UTILITIES: Informatica Scheduler, Control-M
           LANGUAGES: Python, Shell Scripting, SQL, Transact-SQL (T-SQL), PL/SQL
           WEB: HTML, CSS</p>
       <Signup/>
-    
+
         <a href="https://www.linkedin.com/in/rani">LinkedIn</a> 
         <a href="https://twitter.com/rani">Twitter</a>
         <a href="https://github.com/rani">GitHub</a>
-  
-      <section  className={utilStyles.privacypolicy}>
-        Privacy Policy: This resume is for job recruitment purposes only. Unauthorized sharing or use is prohibited.
+
+    <section  className={utilStyles.Privacypolicy}>
+        Privacypolicy: This resume is for job recruitment purposes only. Unauthorized sharing or use is prohibited.
       </section>
         </section>
     </Layout>
