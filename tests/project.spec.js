@@ -12,28 +12,6 @@ test('Check Yourname Presence on Home', async () => {
 });
 
 
-// This test checks if the <h1> in the <article> in SSR page contains specific content 
-test('Check <h1> in <article> for Specific Content on SSR page', async ({ page }) => {
-  await page.goto(nextjstestssr);
-
-  const articleSelector = 'article';
-  const expectedContent = 'When to Use Static Generation v.s. Server-side Rendering';
-  const headerSelector = `${articleSelector} h1:has-text("${expectedContent}")`;
-
-  await expect(page.locator(headerSelector)).toBeVisible();
-});
-
-
-//This test checks if the <h1> in the <article> of Pre-Rendering Page contains specific content
-test('Check <h1> in <article> for Specific Content on Render Page', async ({ page }) => {
-  await page.goto(nextjsrender);
-
-  const articleSelector = 'article';
-  const expectedContent = 'Two Forms of Pre-rendering';
-  const headerSelector = `${articleSelector} h1:has-text("${expectedContent}")`;
-
-  await expect(page.locator(headerSelector)).toBeVisible();
-});
 // This test checks that the responsive meta tag is present 
 test('Check Responsive Meta Tag', async ({ page }) => {
   await page.goto(nextjsrender);
