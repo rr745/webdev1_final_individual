@@ -34,16 +34,20 @@ export default function Home() {
      
      <h2>SkillSet</h2>
 
-      <p> ETL TOOLS: Informatica Power Center 10.x/9.x, Talend Open Studio 5.
+      <p> ETL TOOLS: Informatica Power Center 10.x/9.x, 
+                     Talend Open Studio 5.
           DATABASES: Teradata, Oracle 12c/11g, MS SQL Server 2016/2012, MySQL
           DATABASE UTILITIES: Informatica Scheduler, Control-M
           LANGUAGES: Python, Shell Scripting, SQL, Transact-SQL (T-SQL), PL/SQL
-          WEB: HTML, CSS</p>
+          WEB: HTML, CSS
+          </p>
+
       <Signup/>
 
         <a href="https://www.linkedin.com/in/rani">LinkedIn</a> 
-        <a href="https://twitter.com/rani">Twitter</a>
+        
         <a href="https://github.com/rani">GitHub</a>
+
 
     <section  className={utilStyles.Privacypolicy}>
         Privacypolicy: This resume is for job recruitment purposes only. Unauthorized sharing or use is prohibited.

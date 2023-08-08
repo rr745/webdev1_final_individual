@@ -53,4 +53,17 @@
   
   .Privacypolicy {
     font-size: 1rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.signup {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.contact-section h2 {
+  margin-bottom: 20px; /* adjust this value to increase or decrease the gap */
+}
+
+.contact-section p {
+  margin-bottom: 20px; /* adjust this value to increase or decrease the gap */
 }
