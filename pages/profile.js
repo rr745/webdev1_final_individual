@@ -21,7 +21,7 @@ export default function ProfileHead() {
             <div className={styles.imageContainer}>
                 <Image
                     priority
-                    src="/images/jessica.png"
+                    src="/images/radhika.jpg"
                     className={styles.borderCircle}
                     height={144}
                     width={144}
