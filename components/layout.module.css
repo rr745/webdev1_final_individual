@@ -1,15 +1,145 @@
 .container {
-    max-width: 36rem;
-    padding: 0 1rem;
-    margin: 3rem auto 6rem;
-  }
+  max-width: 36rem;
+  padding: 0 1rem;
+  margin: 3rem auto 6rem;
+}
 
-  .header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-  .backToHome {
-    margin: 3rem 0 0;
-  }
+.backToHome {
+  margin: 3rem 0 0;
+}
+
+.profilebar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  position: sticky;
+  top: 0;
+  transition: background 0.3s;
+  background: #f8f9fa;
+  /* Light gray background */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  /* Soft shadow */
+  z-index: 100;
+  /* Ensure it's above other content */
+  /* border-bottom: 1px solid black;  */
+}
+
+.profilebar.scrolled {
+  background: rgba(0, 0, 0, 0.8);
+  /* Slightly darker background when scrolled */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  /* Slightly stronger shadow */
+}
+
+.brand {
+  font-weight: bold;
+  color: #333;
+  /* Darker text color */
+  font-size: 1.5rem;
+  /* Larger font size */
+  /* text-transform: uppercase; Uppercase text */
+  position: relative;
+}
+
+.webDeveloper {
+  color: #E45607;
+  /* Your specified color */
+  font-size: .8rem;
+  /* Larger font size */
+  margin-bottom: 25px;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  /* border-bottom: 1px solid black;
+  padding-bottom: 10px; */
+}
+
+.linkedin {
+  flex: 1;
+  /* This will make the LinkedIn link occupy the full space up to the GitHub link */
+  text-align: left;
+  /* Align the LinkedIn link to the left */
+  margin-right: auto;
+  font-size: 0.65rem;
+  /* Larger font size */
+}
+
+.github {
+  flex: 1;
+  /* This will make the GitHub link occupy the remaining space */
+  text-align: right;
+  /* Center the GitHub link */
+  font-size: 0.65rem;
+  /* Larger font size */
+  margin-left: 200px;
+}
+
+.profileHeadings {
+  font-weight: bold;
+  color: #333;
+  /* Darker text color */
+  font-size: 1.1rem;
+  /* Larger font size */
+  position: relative;
+}
+
+.profileSecondHeadings {
+  font-weight: bold;
+  color: #333;
+  /* Darker text color */
+  font-size: 0.9rem;
+  /* Larger font size */
+  position: relative;
+  /* margin-top: 1px; */
+}
+
+.profileThirdHeadings {
+  font-weight: bold;
+  color: #333;
+  /* Darker text color */
+  font-size: 0.8rem;
+  /* Larger font size */
+  position: relative;
+  margin-top: 15px;
+}
+
+.profileText {
+  font-size: .8rem;
+  /* Larger font size */
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+  display: block;
+  text-align: left;
+}
+
+.profilebar {
+  /* ... existing styles ... */
+  position: relative;
+  /* Make sure profilebar is a positioned element */
+}
+
+.imageContainer {
+  position: absolute;
+  /* Position it absolutely within the profilebar */
+  top: 10px;
+  /* Adjust according to your needs */
+  right: 10px;
+  /* Adjust according to your needs */
+}
+
+.borderCircle {
+  border-radius: 9999px;
+}
+
+.privacyPolicy {
+  font-size: 1rem;
+}
