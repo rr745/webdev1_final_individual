@@ -26,3 +26,21 @@ test('Check Responsive Meta Tag for Render', async ({ page }) => {
   await expect(viewportMeta).toBe('width=device-width');
 });
 
+// test.describe('Portfolio Page Signup Form', () => {
+//   test('should fill and submit the signup form', async ({ page }) => {
+//     // Navigate to your portfolio page
+//     await page.goto('http://localhost:3000/');
+
+//     // Fill the email input
+//     await page.fill('input[name="EMAIL"]', 'test@example.com');
+
+//     // Submit the form
+//     await page.click('input[type="submit"]');
+
+//     // Wait for navigation
+//     await page.waitForResponse();
+
+//     // Verify the form redirects to the appropriate URL
+//     expect(page.url()).toContain('list-manage.com');
+//   });
+// });
