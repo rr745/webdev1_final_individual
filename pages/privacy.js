@@ -3,7 +3,7 @@
 const PrivacyPolicy = () => {
     return (
         <div className="privacy-policy-container">
-            <h1>Privacy Policy for Radhika's Web Developer Portfolio</h1>
+            <h1>Privacy Policy for Radhika's Web Developer Portfolio </h1>
             {/* <p><strong>Last updated:</strong> [Month, Day, Year]</p> */}
             <p>Welcome to my personal web developer portfolio. Your privacy is critically important to me. This privacy policy aims to inform you about the collection, use, and protection of personal information on this website and is GDPR compliant.</p>
 
